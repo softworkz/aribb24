@@ -12,7 +12,7 @@ pluginsdir=${pkglibdir}/plugins
 Name: aribb24
 Description: ARIB B24 Captions decoder
 Version: @VERSION@
-Requires: @PKG_REQUIRES@
+Requires: @PKG_REQUIRES@ libpng
 Cflags: -I${includedir}
 Libs.private: -lm
 Libs: -L${libdir} -laribb24
